@@ -1,0 +1,3 @@
+bins: /mnt/workspace/sigitas/NOD_genomes/Final-bins #genomic binsa
+workdir: wdir_ano
+gapseq_dir: /mnt/workspace/special_soft/gapseq
