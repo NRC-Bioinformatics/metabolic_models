@@ -18,7 +18,7 @@ rule run_gapseq:
     log:
         wdir+"/gapseq/{bin}/{bin}.log"
     params:
-        wdir = wdir+"/gapseq",
+        wdir = wdir+"/gapseq/{bin}",
         bind = config["gapseq_dir"]
     threads: 5
     conda:
@@ -29,7 +29,8 @@ rule run_gapseq:
         inf_stem=`basename {input.fasta}`
         log=`realpath {log}`
         cd {params.wdir}
-        cp $inf $inf_stem
+        cp $inf .
+        ls $inf_stem
         {params.bind}/gapseq doall -n -K {threads} $inf_stem  Bacteria &> $log
         """
 #/gapseq doall -n -K 96 nod_bin6.fasta  Bacteria
