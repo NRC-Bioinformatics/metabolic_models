@@ -1,3 +1,6 @@
 bins: /mnt/workspace/sigitas/NOD_genomes/Final-bins #genomic binsa
 workdir: wdir_ano
 gapseq_dir: /mnt/workspace/special_soft/gapseq
+special_mediums:
+  bin.6: resources/MF2_gapseq.csv
+  default: resources/ALLmed_gapseq.csv
