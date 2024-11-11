@@ -1,0 +1,22 @@
+2024-11-06 16:32:56,309 - INFO - reading model from models/bin.5.xml
+2024-11-06 16:33:00,783 - INFO - 
+Processing model: bin_5
+2024-11-06 16:33:00,785 - WARNING - Metabolite cpd00104_e0 corresponding to EX_cpd00104_e0 not found in model bin_5. Exchange reaction EX_cpd00104_e0 not added.
+2024-11-06 16:33:00,791 - INFO - Compartment `e0` sounds like an external compartment. Using this one without counting boundary reactions.
+2024-11-06 16:33:00,797 - WARNING - Exchange reaction EX_cpd00104_e0 not found in model bin_5
+2024-11-06 16:33:00,802 - INFO - Compartment `e0` sounds like an external compartment. Using this one without counting boundary reactions.
+2024-11-06 16:33:00,875 - INFO - Model bin_5 growth rate after adjustment: 0.0
+2024-11-06 16:33:02,790 - INFO - Saved adjusted model to adjusted_models/bin.5.xml
+2024-11-06 16:33:02,872 - INFO - reading model from models/bin.6.xml
+2024-11-06 16:33:05,712 - INFO - 
+Processing model: bin_6
+2024-11-06 16:33:05,714 - WARNING - Metabolite cpd00104_e0 corresponding to EX_cpd00104_e0 not found in model bin_6. Exchange reaction EX_cpd00104_e0 not added.
+2024-11-06 16:33:05,722 - INFO - Compartment `e0` sounds like an external compartment. Using this one without counting boundary reactions.
+2024-11-06 16:33:05,729 - WARNING - Exchange reaction EX_cpd00104_e0 not found in model bin_6
+2024-11-06 16:33:05,733 - INFO - Compartment `e0` sounds like an external compartment. Using this one without counting boundary reactions.
+2024-11-06 16:33:05,818 - INFO - Model bin_6 growth rate after adjustment: 2.9808737165593997
+2024-11-06 16:33:07,620 - INFO - Saved adjusted model to adjusted_models/bin.6.xml
+2024-11-06 16:33:07,696 - WARNING - Skipping unsupported file format: .ipynb_checkpoints
+2024-11-06 16:33:07,697 - WARNING - Skipping unsupported file format: manifest.csv
+2024-11-06 16:33:07,697 - INFO - 
+All models have been processed.

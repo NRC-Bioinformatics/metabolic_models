@@ -1,0 +1,3 @@
+id,file,domain,phylum,class,order,family,genus,species,summary_rank
+bin.5,bin.5.xml,Bacteria,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus subtilis,phylum
+bin.6,bin.6.xml,Bacteria,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,phylum
